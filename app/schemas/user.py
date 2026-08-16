@@ -8,7 +8,7 @@ class UserCreate(BaseModel):
 class UserResponse(BaseModel):
     id: int
     email : str
-    name: str
+    username: str
     is_active: bool
 
     class Config:
