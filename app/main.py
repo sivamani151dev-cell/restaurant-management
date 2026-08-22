@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(level
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="Restauarant Management System",
+    title="Restaurant Management System",
     description="A complete restaurant management backend API",
     version="1.0.0"
 )
